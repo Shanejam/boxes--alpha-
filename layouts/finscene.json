@@ -1,0 +1,1811 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "FINSCENE",
+  "name": "FINSCENE",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.6599999999999997,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "WinOrLose",
+      "type": "string",
+      "value": "Win"
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 549,
+      "layer": "",
+      "locked": true,
+      "name": "Background",
+      "persistentUuid": "311a1714-da35-48b7-8a5d-660cedbfc66b",
+      "width": 715,
+      "x": 30,
+      "y": 32,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270.5392150878906,
+      "customSize": true,
+      "height": 106.007080078125,
+      "layer": "",
+      "locked": true,
+      "name": "SquaresParticles",
+      "persistentUuid": "c205cdd9-1df6-476a-9cde-bdb765cfcedf",
+      "width": 106.007080078125,
+      "x": 393.4964599609375,
+      "y": 390.4964599609375,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270.3056335449219,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "SquaresParticles2",
+      "persistentUuid": "2c1e9cdb-3209-42b0-a43e-5fa51b236adf",
+      "width": 0,
+      "x": 393.6595153808594,
+      "y": 410.6595153808594,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 269.26336669921875,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "SquaresParticles3",
+      "persistentUuid": "74503837-3c24-4985-846b-788d67447e7f",
+      "width": 0,
+      "x": 395.1824951171875,
+      "y": 428.1824951171875,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "PlayAgain",
+      "persistentUuid": "06371e80-9667-49b6-bc0b-aa9236f1b383",
+      "width": 0,
+      "x": 213,
+      "y": 65,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 79,
+      "layer": "",
+      "locked": true,
+      "name": "BANNERWHITE",
+      "persistentUuid": "0b487e47-424d-413f-a438-db0f7b00fdf8",
+      "width": 403,
+      "x": 194,
+      "y": 55,
+      "zOrder": 200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "yes",
+      "persistentUuid": "6a2d6038-aff9-4969-96f2-3f862ac3ef16",
+      "width": 0,
+      "x": 80,
+      "y": 141,
+      "zOrder": 202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 57,
+      "layer": "",
+      "locked": true,
+      "name": "NO",
+      "persistentUuid": "d64cb15c-95e7-4b30-8ae6-889640585ebc",
+      "width": 82,
+      "x": 615,
+      "y": 146,
+      "zOrder": 203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 74,
+      "layer": "",
+      "locked": true,
+      "name": "BANNERWHITE",
+      "persistentUuid": "95f3b4b2-f918-4c3d-b660-1a0cfd23b060",
+      "width": 116,
+      "x": 597,
+      "y": 137,
+      "zOrder": 202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 68,
+      "layer": "",
+      "locked": true,
+      "name": "BANNERWHITE",
+      "persistentUuid": "281b029f-3267-4337-8315-2ef70f3e83cc",
+      "width": 132,
+      "x": 62,
+      "y": 137,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 88,
+      "layer": "",
+      "locked": true,
+      "name": "BANNERSHADE",
+      "persistentUuid": "c2c7281d-9439-4e94-ae75-250f9a3aad18",
+      "width": 153,
+      "x": 51,
+      "y": 130,
+      "zOrder": 200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 88,
+      "layer": "",
+      "locked": true,
+      "name": "BANNERSHADE",
+      "persistentUuid": "c4f9b1a3-1bed-415a-8a6b-a244c959d287",
+      "width": 132,
+      "x": 589,
+      "y": 132,
+      "zOrder": 200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "",
+      "locked": true,
+      "name": "BANNERSHADE",
+      "persistentUuid": "46a66204-6e2e-4fd9-8f57-23d4c38cbada",
+      "width": 427,
+      "x": 182,
+      "y": 48,
+      "zOrder": 199,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outline",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "YouWin",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "233;180;241"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "YOU WIN!!",
+      "font": "Gridget.otf",
+      "characterSize": 90,
+      "color": {
+        "b": 143,
+        "g": 14,
+        "r": 81
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "PlayAgain",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "PLAY AGAIN?",
+      "font": "JustBubble.ttf",
+      "characterSize": 70,
+      "color": {
+        "b": 43,
+        "g": 204,
+        "r": 131
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "MainMenu",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Main Menu",
+      "font": "Gridget.otf",
+      "characterSize": 60,
+      "color": {
+        "b": 143,
+        "g": 14,
+        "r": 81
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Exit",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Exit",
+      "font": "Gridget.otf",
+      "characterSize": 60,
+      "color": {
+        "b": 143,
+        "g": 14,
+        "r": 81
+      }
+    },
+    {
+      "name": "Trophy",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Pressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Trophy_Pressed_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 45,
+      "emitterForceMax": 160,
+      "emitterForceMin": 90,
+      "flow": 60,
+      "maxParticleNb": 16,
+      "name": "SquaresParticles3",
+      "particleAlpha1": 200,
+      "particleAlpha2": 200,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 252,
+      "particleGravityX": 0,
+      "particleGravityY": 20,
+      "particleGreen1": 32,
+      "particleGreen2": 241,
+      "particleLifeTimeMax": 6.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 0,
+      "particleRed2": 94,
+      "particleSize1": 10,
+      "particleSize2": 75,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 0.5,
+      "rendererParam2": 0.5,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "assets\\IsometricAbstractPlatformerGreenPlainBox-1.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 100,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 140,
+      "emitterForceMax": 160,
+      "emitterForceMin": 90,
+      "flow": 60,
+      "maxParticleNb": 16,
+      "name": "SquaresParticles2",
+      "particleAlpha1": 200,
+      "particleAlpha2": 200,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 67,
+      "particleGravityX": 0,
+      "particleGravityY": 20,
+      "particleGreen1": 51,
+      "particleGreen2": 199,
+      "particleLifeTimeMax": 6.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 255,
+      "particleRed2": 20,
+      "particleSize1": 10,
+      "particleSize2": 75,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 0.5,
+      "rendererParam2": 0.5,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "assets\\IsometricAbstractPlatformerGreenPlainBox-1.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 100,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 160,
+      "emitterForceMin": 90,
+      "flow": 60,
+      "maxParticleNb": 30,
+      "name": "SquaresParticles",
+      "particleAlpha1": 35,
+      "particleAlpha2": 200,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 0,
+      "particleBlue2": 6,
+      "particleGravityX": 0,
+      "particleGravityY": 36,
+      "particleGreen1": 150,
+      "particleGreen2": 241,
+      "particleLifeTimeMax": 6.5,
+      "particleLifeTimeMin": 3.5,
+      "particleRed1": 23,
+      "particleRed2": 59,
+      "particleSize1": 1,
+      "particleSize2": 80,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 0.5,
+      "rendererParam2": 0.5,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "Isometric Abstract Platformer Green Plain Box.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 80,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 75,
+      "emitterForceMax": 100,
+      "emitterForceMin": 90,
+      "flow": 60,
+      "maxParticleNb": 60,
+      "name": "CircleParticles",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 241,
+      "particleBlue2": 1,
+      "particleGravityX": 0,
+      "particleGravityY": 15,
+      "particleGreen1": 255,
+      "particleGreen2": 150,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 51,
+      "particleRed2": 252,
+      "particleSize1": 60,
+      "particleSize2": 260,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 90,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 200,
+      "emitterForceMin": 100,
+      "flow": 60,
+      "maxParticleNb": 100,
+      "name": "LinesParticle",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 15,
+      "particleGreen1": 51,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 200,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 90,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 65,
+      "emitterForceMax": 100,
+      "emitterForceMin": 130,
+      "flow": 60,
+      "maxParticleNb": 50,
+      "name": "HeartParticles",
+      "particleAlpha1": 200,
+      "particleAlpha2": 200,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 222,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 50,
+      "particleGreen1": 0,
+      "particleGreen2": 235,
+      "particleLifeTimeMax": 6.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 10,
+      "particleSize2": 200,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 3,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "Emote Heart.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 100,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "EmoteHeart",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Emote Heart.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 120,
+      "emitterForceMax": 200,
+      "emitterForceMin": 100,
+      "flow": 60,
+      "maxParticleNb": 20,
+      "name": "StreamerParticle",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 1,
+      "particleAngle2": 25,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 7,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": 15,
+      "particleGreen1": 7,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 7,
+      "particleRed2": 255,
+      "particleSize1": 19,
+      "particleSize2": 50,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "NewObject-1-22.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 90,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "Streamer",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 180,
+      "emitterForceMax": 149,
+      "emitterForceMin": 50,
+      "flow": 60,
+      "maxParticleNb": 25,
+      "name": "ConfettiParticle",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 40,
+      "particleGreen1": 51,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 15,
+      "particleSize2": 200,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "NewObject-1-23.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 150,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 240,
+      "emitterForceMax": 200,
+      "emitterForceMin": 100,
+      "flow": 60,
+      "maxParticleNb": 20,
+      "name": "streamerparticle2",
+      "particleAlpha1": 204,
+      "particleAlpha2": 255,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 12,
+      "particleAngle2": 25,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 7,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": 15,
+      "particleGreen1": 7,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 7,
+      "particleRed2": 255,
+      "particleSize1": 50,
+      "particleSize2": 50,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "NewObject-1-22-1.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 90,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "name": "Confetti",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "yes",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "YES",
+      "font": "JustBubble.ttf",
+      "characterSize": 70,
+      "color": {
+        "b": 43,
+        "g": 204,
+        "r": 131
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "NO",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "NO",
+      "font": "JustBubble.ttf",
+      "characterSize": 70,
+      "color": {
+        "b": 43,
+        "g": 204,
+        "r": 131
+      }
+    },
+    {
+      "name": "BANNERWHITE",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-24.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BANNERSHADE",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-25.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "WinOrLose",
+            "=",
+            "GlobalVariableString(WinOrLose)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarSceneTxt"
+          },
+          "parameters": [
+            "WinOrLose",
+            "=",
+            "\"Win\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "YouWin",
+            "175",
+            "262",
+            "\"BUTTONS\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Trophy",
+            "286",
+            "362",
+            "\"\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Trophy",
+            "=",
+            "99"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeHeight"
+          },
+          "parameters": [
+            "Trophy",
+            "=",
+            "214"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeWidth"
+          },
+          "parameters": [
+            "Trophy",
+            "=",
+            "218"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "ConfettiParticle",
+            "390",
+            "345",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "ConfettiParticle",
+            "=",
+            "6"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "streamerparticle2",
+            "392",
+            "396",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "streamerparticle2",
+            "=",
+            "6"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "streamerparticle",
+            "392",
+            "408",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "streamerparticle",
+            "=",
+            "6"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "CircleParticles",
+            "393",
+            "416",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "CircleParticles",
+            "=",
+            "3"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "LinesParticle",
+            "395",
+            "433",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "LinesParticle",
+            "=",
+            "3"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "HeartParticles",
+            "394",
+            "440",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "HeartParticles",
+            "=",
+            "100"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NO",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetBold"
+          },
+          "parameters": [
+            "NO",
+            "yes"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "NO",
+            "\"38;204;181\"",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Welcome screen\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "NO",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetBold"
+          },
+          "parameters": [
+            "NO",
+            "no"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "NO",
+            "\"38;204;181\"",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "yes",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetBold"
+          },
+          "parameters": [
+            "yes",
+            "yes"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "yes",
+            "\"38;204;181\"",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"BoxesBoard\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "yes",
+            "=",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetBold"
+          },
+          "parameters": [
+            "yes",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetOutline"
+          },
+          "parameters": [
+            "yes",
+            "\"38;204;181\"",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 14076360,
+      "ambientLightColorG": 150995054,
+      "ambientLightColorR": 1869182049,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 167797870,
+      "ambientLightColorG": 6029040,
+      "ambientLightColorR": 11659600,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "BUTTONS",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
