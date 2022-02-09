@@ -1410,7 +1410,7 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "At Beginning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1986,14 +1986,14 @@
       "colorR": 74,
       "creationTime": 0,
       "disabled": false,
-      "folded": true,
+      "folded": false,
       "name": "Search Game Actions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2126,7 +2126,7 @@
                     "\"boxes-alpha.herokuapp.com\"",
                     "443",
                     "\"/\"",
-                    "",
+                    "\"peerjs\"",
                     "yes"
                   ],
                   "subInstructions": []
@@ -2138,7 +2138,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2314,7 +2314,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2440,7 +2440,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2743,7 +2743,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3057,7 +3057,7 @@
                     "\"boxes-alpha.herokuapp.com\"",
                     "443",
                     "\"/\"",
-                    "",
+                    "\"peersjs\"",
                     "yes"
                   ],
                   "subInstructions": []
@@ -3116,7 +3116,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
