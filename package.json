@@ -7,7 +7,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "peerjs",
+    "start": "./bin/peerjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SaSGames",
