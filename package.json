@@ -2,7 +2,7 @@
   "name": "boxes-alpha",
   "version": "1.0.0",
   "description": "boxes game multiplayer",
-  "main": "dist/src/index.js",
+  "main": "index.js",
   "engines": {
     "node": "16.x"
   },
