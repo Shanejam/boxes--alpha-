@@ -1,1 +1,0 @@
-An expansion of Arthuros  multiplayer/networking example with added features for more then 2 Players.
