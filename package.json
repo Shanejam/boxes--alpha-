@@ -7,7 +7,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "peerjs --port 9000 --key peerjs --path /myapp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SaSGames",
